@@ -1,2 +1,2 @@
-# whos-that-pokemon
-Gen-1 pokemon classifier
+# Who's That Pokemon?
+Identifies generation 1 pokemon
