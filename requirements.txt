@@ -316,7 +316,7 @@ tokenizers==0.13.2
 toml==0.10.2
 tomli==2.0.1
 tomlkit==0.11.8
-tornado==6.2
+tornado==6.3.2
 tqdm==4.65.0
 traitlets==5.8.0
 triton==2.0.0
