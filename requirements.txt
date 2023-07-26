@@ -228,7 +228,7 @@ pydantic==1.10.6
 pydocstyle==6.3.0
 pydub==0.25.1
 pyflakes==3.0.1
-Pygments==2.11.2
+Pygments==2.15.0
 PyGObject==3.42.1
 pyinotify==0.9.6
 PyJWT==2.3.0
