@@ -11,7 +11,7 @@ pinned: false
 
 # Who's That Pokemon?
 
-[Kaggle link](https://www.kaggle.com/code/echometerhhwl/who-s-that-pokemon-improved)
+[Kaggle link](https://www.kaggle.com/code/echometerhhwl/who-s-that-pokemon-improved) | [Huggingface demo](https://huggingface.co/spaces/echometerain/whos-that-pokemon)
 
 Identifies generation 1 pokemon based on resnet34 and [35627 images](https://www.kaggle.com/datasets/echometerhhwl/pokemon-gen-1-38914)!
 
