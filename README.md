@@ -1,3 +1,14 @@
+---
+title: { { Who's That Pokemon? } }
+emoji: { { ⚡ } }
+colorFrom: { { red } }
+colorTo: { { blue } }
+sdk: { { gradio } }
+sdk_version: { { 3.38.0 } }
+app_file: app.py
+pinned: false
+---
+
 # Who's That Pokemon?
 
 [Kaggle link](https://www.kaggle.com/code/echometerhhwl/who-s-that-pokemon-improved)
