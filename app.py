@@ -14,7 +14,7 @@ learn = load_learner('./model.pkl')
 def predictor(img):
     item, _, probs = learn.predict(img)
     response = requests.get(ddg.ddg_images(
-        item)[random.randint(0, 9)]["image"])
+        f"{item} pokemon")[random.randint(0, 9)]["image"])
     rand_img = PIL.Image.open(io.BytesIO(response.content))
     df = pd.DataFrame(data=probs.numpy()*100, columns=["%"])
     df.insert(0, "Pokemon", learn.dls.vocab)
