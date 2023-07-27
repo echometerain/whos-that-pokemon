@@ -19,6 +19,6 @@ Identifies generation 1 pokemon based on resnet34 and [35627 images](https://www
 
 ![image](https://github.com/echometerain/whos-that-pokemon/assets/70437021/e46821ee-26ce-4976-8545-da8786fdc9c0)
 
-Pretrained model (`model.pkl`) has 94.3% accuracy
+Pretrained model (`model.pkl`) has 94.3% accuracy (with dataset augmented at runtime)
 
 ![image](https://github.com/echometerain/whos-that-pokemon/assets/70437021/5e41262e-86b9-4dde-a48a-56951ea25644)
