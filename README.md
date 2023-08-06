@@ -19,7 +19,7 @@ Identifies generation 1 pokemon based on [35627 images](https://www.kaggle.com/d
 
 ![image](https://github.com/echometerain/whos-that-pokemon/assets/70437021/e46821ee-26ce-4976-8545-da8786fdc9c0)
 
-Default model based on convnext_tiny (`model.pkl`) has 96.7% accuracy (with dataset augmented at runtime)
+Default model based on convnext_tiny (`model.pkl`) has 95.7% accuracy (with dataset augmented at runtime)
 
 ![image](https://github.com/echometerain/whos-that-pokemon/assets/70437021/b3006352-ad07-4227-9da3-aa9c182d3303)
 
