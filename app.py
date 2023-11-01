@@ -23,4 +23,4 @@ def predictor(img):
 
 
 gr.Interface(fn=predictor, inputs="image", outputs=[
-             "text", gr.Image().style(height=256), gr.DataFrame(show_label=True)], allow_flagging="never", title="Who's That Pokemon?", live=True).launch()
+             "text", gr.Image(height=256), gr.DataFrame(show_label=True)], allow_flagging="never", title="Who's That Pokemon?", live=True).launch()
