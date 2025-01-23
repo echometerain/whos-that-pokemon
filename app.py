@@ -5,7 +5,7 @@ import random
 import requests
 import pandas as pd
 import gradio as gr
-import duckduckgo_search as ddg
+from duckduckgo_search import DDGS
 import PIL
 
 learn = load_learner('./model.pkl')
@@ -13,7 +13,7 @@ learn = load_learner('./model.pkl')
 
 def predictor(img):
     item, _, probs = learn.predict(img)
-    response = requests.get(ddg.ddg_images(
+    response = requests.get(DDGS().images(
         f"{item} pokemon")[random.randint(0, 9)]["image"])
     rand_img = PIL.Image.open(io.BytesIO(response.content))
     df = pd.DataFrame(data=probs.numpy()*100, columns=["%"])

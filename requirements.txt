@@ -1,4 +1,5 @@
 fastai
 pandas
+gradio
 duckduckgo-search
 timm
